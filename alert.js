@@ -1,1 +1,2 @@
-    alert( 'Я – JavaScript!sssssssss' );
+    alert( 'Hello!' );
+    alert('Bye!');
