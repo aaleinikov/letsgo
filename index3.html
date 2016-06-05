@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<SCRIPT>
+    var num,i,j;
+    outer: for (i=2; i<=10; i++) {
+        for (j=i-1; j>=2; j--) {
+        if (i%j==0) continue outer;
+        }
+        alert (i);
+    }
+
+</SCRIPT>
+</body>
+</html>
